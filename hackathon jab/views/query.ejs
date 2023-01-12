@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="/" method="post">
+        <div class="form-group">
+          <label for="soilType">Select the type of soil:</label>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              name="soil_type"
+              type="checkbox"
+              value="red"
+              id="redSoil"
+            />
+            <label class="form-check-label" for="redSoil">Red Soil</label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              name="soil_type"
+              value="black"
+              id="blackSoil"
+            />
+            <label class="form-check-label" for="blackSoil">Black Soil</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="soilNutrientLevel">Select the soil nitrogen level:</label>
+          <input
+            type="range"
+            class="form-control-range"
+            id="NitrogenLevelLabel"
+            min="1"
+            max="100"
+            value="50"
+            name="Nitrogen_level"
+            oninput="updateNitrogenLevelLabel(this.value)"
+          />
+          <label id="NitrogenLevelLabel">50%</label>
+        </div>
+
+        <div class="form-group">
+          <label for="soilNutrientLevel">Select the soil phosphorous level:</label>
+          <input
+            type="range"
+            class="form-control-range"
+            id="soilNutrientLevel"
+            min="1"
+            max="100"
+            value="50"
+            name="phosphorous_level"
+            oninput="updatePhosphorousLevelLabel(this.value)"
+          />
+          <label id="PhosphorousLevelLabel">50%</label>
+        </div>
+        <div class="form-group">
+          <label for="soilNutrientLevel">Select the soil potassium level:</label>
+          <input
+            type="range"
+            class="form-control-range"
+            id="PotassiumLevelLabel"
+            min="1"
+            max="100"
+            value="50"
+            name="potassium_level"
+            oninput="updatePotassiumLevelLabel(this.value)"
+          />
+          <label id="PotassiumLevelLabel">50%</label>
+        </div>
+        <div class="form-group">
+          <label for="soilHumiditylevel">Select the soil Humidity level:</label>
+          <input
+            type="range"
+            class="form-control-range"
+            id="soilHumiditylevel"
+            min="1"
+            max="100"
+            value="50"
+            name="humidity_level"
+            oninput="updateHumidityLevelLabel(this.value)"
+          />
+          <label id="HumidityLevelLabel">50%</label>
+        </div>
+
+        <div class="form-group">
+          <label for="todo">what do you want to do ?</label>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              name="choice"
+              value="Harvest"
+              id="Harvest"
+            />
+            <label class="form-check-label" for="Harvest">Harvest</label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              name="choice"
+              value="sowing"
+              id="sowing"
+            />
+            <label class="form-check-label" for="sowing">sowing</label>
+          </div>
+        </div>
+        <div class="form-group mb-3">
+          
+            <label for="month" class="form-label">Month</label>
+            <input type="text" class="form-control" id="month" name="month" readonly>
+          
+        </div>
+
+        <div class="form-group mb-3">
+          
+          <label for="month" class="form-label">crop</label>
+          <input type="text" class="form-control" id="month" name="cropname">
+        
+      </div>
+
+
+      <div class="form-group mb-3">
+          
+        <label for="month" class="form-label">description</label>
+        <input type="text" class="form-control" id="month" name="description">
+      
+    </div>
+    <div class="form-group mb-3">
+          
+      <label for="month" class="form-label">imageurl</label>
+      <input type="text" class="form-control" id="month" name="imageurl">
+    
+  </div>
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <script>
+      function updateNitrogenLevelLabel(value) {
+        document.getElementById("NitrogenLevelLabel").innerHTML = `${value}%`;
+      }
+      function updatePhosphorousLevelLabel(value) {
+        document.getElementById("PhosphorousLevelLabel").innerHTML = `${value}%`;
+      }
+      function updatePotssiumLevelLabel(value) {
+        document.getElementById("PotssiumLevelLabel").innerHTML = `${value}%`;
+      }
+      function updateHumidityLevelLabel(value) {
+        document.getElementById("HumidityLevelLabel").innerHTML = `${value}%`;
+      }
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
