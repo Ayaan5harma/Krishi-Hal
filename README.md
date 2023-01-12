@@ -29,8 +29,8 @@ MICROCONTROLLER USED
   
 SENSORS USED 
   
-  Water Flow Sensor
-  NPK Sensor
-  Humidity Sensor
-  Temperature Sensor
+  Water Flow Sensor,
+  NPK Sensor,
+  Humidity Sensor,
+  Temperature Sensor,
   Moisture Sensor
