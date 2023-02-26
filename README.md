@@ -28,30 +28,30 @@ alarm, irrigation situation and nutrients in soil
 
 <h3>TECHNOLOGY USED</h3>
 
-*IoT 
+*IoT* 
 
-*NodeJS
+*NodeJS*
 
-*HTML
+*HTML*
 
-*CSS
+*CSS*
 
-*Blynk APP                                      
+*Blynk APP*                                      
                                                 
  <br>
  
 <h3>MICROCONTROLLER USED</h3>
  
-  ESP32 
+  *ESP32* 
   
 <h3>SENSORS USED</h3>
   
-  *Water Flow Sensor
+  *Water Flow Sensor*
   
-  *NPK Sensor
+  *NPK Sensor*
   
-  *Humidity Sensor
+  *Humidity Sensor*
   
-  *Temperature Sensor
+  *Temperature Sensor*
   
-  *Moisture Sensor
+  *Moisture Sensor*
