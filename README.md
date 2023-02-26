@@ -26,11 +26,11 @@ alarm, irrigation situation and nutrients in soil
 
 **TECHNOLOGY USED**
 
--IoT 
--NodeJS
--HTML 
--CSS 
--Blynk APP                                      
+*IoT 
+*NodeJS
+*HTML 
+*CSS 
+*Blynk APP                                      
                                                 
                                                
 **MICROCONTROLLER USED** 
@@ -39,12 +39,8 @@ alarm, irrigation situation and nutrients in soil
   
 **SENSORS USED** 
   
-  Water Flow Sensor
-  
-  NPK Sensor
-  
-  Humidity Sensor
-  
-  Temperature Sensor
-  
-  Moisture Sensor
+  *Water Flow Sensor
+  *NPK Sensor
+  *Humidity Sensor
+  *Temperature Sensor
+  *Moisture Sensor
