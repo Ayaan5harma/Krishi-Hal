@@ -1,6 +1,6 @@
-`*Krishi-Hal*`
+`Krishi-Hal`
 
-*Farmer Solutions*
+**Farmer Solutions**
 
 ● A software based system with real-time monitoring of data
 
@@ -24,31 +24,27 @@ alarm, irrigation situation and nutrients in soil
 
 ● Whatsapp chatbot for seeking any kind of help for farmers
 
-TECHNOLOGY USED
+**TECHNOLOGY USED**
 
-1.IoT 
-
-2.NodeJS
-
-3.HTML 
-
-4.CSS 
-
-5.Blynk APP                                      
+-IoT 
+-NodeJS
+-HTML 
+-CSS 
+-Blynk APP                                      
                                                 
                                                
-MICROCONTROLLER USED 
+**MICROCONTROLLER USED** 
  
   ESP32 
   
-SENSORS USED 
+**SENSORS USED** 
   
-  Water Flow Sensor,
+  Water Flow Sensor
   
-  NPK Sensor,
+  NPK Sensor
   
-  Humidity Sensor,
+  Humidity Sensor
   
-  Temperature Sensor,
+  Temperature Sensor
   
   Moisture Sensor
