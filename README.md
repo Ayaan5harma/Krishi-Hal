@@ -24,23 +24,34 @@ alarm, irrigation situation and nutrients in soil
 
 ● Whatsapp chatbot for seeking any kind of help for farmers
 
+<br>
+
 **TECHNOLOGY USED**
 
 *IoT 
+
 *NodeJS
-*HTML 
-*CSS 
+
+*HTML
+
+*CSS
+
 *Blynk APP                                      
                                                 
-                                               
-**MICROCONTROLLER USED** 
+ <br>
+ 
+<h2>MICROCONTROLLER USED</h2>
  
   ESP32 
   
 **SENSORS USED** 
   
   *Water Flow Sensor
+  
   *NPK Sensor
+  
   *Humidity Sensor
+  
   *Temperature Sensor
+  
   *Moisture Sensor
