@@ -1,4 +1,4 @@
-`###Krishi-Hal`
+`Krishi-Hal`
 
 Farmer Solutions
 
