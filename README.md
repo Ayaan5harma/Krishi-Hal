@@ -1,6 +1,6 @@
-`Krishi-Hal`
+<h1>Krishi-Hal</h1>
 
-**Farmer Solutions**
+
 
 ● A software based system with real-time monitoring of data
 
@@ -26,7 +26,7 @@ alarm, irrigation situation and nutrients in soil
 
 <br>
 
-**TECHNOLOGY USED**
+<h3>TECHNOLOGY USED</h3>
 
 *IoT 
 
@@ -40,11 +40,11 @@ alarm, irrigation situation and nutrients in soil
                                                 
  <br>
  
-<h2>MICROCONTROLLER USED</h2>
+<h3>MICROCONTROLLER USED</h3>
  
   ESP32 
   
-**SENSORS USED** 
+<h3>SENSORS USED</h3>
   
   *Water Flow Sensor
   
