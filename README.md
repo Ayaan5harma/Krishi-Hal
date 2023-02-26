@@ -4,11 +4,11 @@
 
 ● A software based system with real-time monitoring of data
 
-● Developing an intelligent system to manage farm
+● An intelligent system to manage farm
 
 ● User interactive system
 
-● Creating an unit to show the temperature, humidity and nutrients of soil
+● An unit to show the temperature, humidity and nutrients of soil
 
 ● Recommendation of crops according to the meteorological conditions
 
@@ -17,7 +17,7 @@ whatsapp
 
 ● Consequences of climate change on crop determined by IoT technology
 
-● Also intelligent irrigation system through IoT technology
+● Intelligent irrigation system through IoT technology
 
 ● Real-time dashboard for farmers to show temperature, humidity, moisture of soil, fire 
 alarm, irrigation situation and nutrients in soil
